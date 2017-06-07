@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@import 'resets';
+@import 'variables';
+@import 'queries';
+@import 'colors';
+@import 'nav';
+@import 'avatar';
+@import 'modal';
+@import 'box';
+@import 'grid';
+
+// Content (the entire document except the area that the nav occupies)
+.search{
+	width: 259px;
+	float: right;
+	text-align:right;
+	position: relative;
+	button{
+		padding: 10px 15px;
+		border-radius: 0 18px 18px 0;
+		border-left: 0;
+		position: absolute;
+		right: 0;
+	}
+	input[type=text]{
+		width:100%;
+	}
+	input[type=text],input[type=text]:focus 
+	{
+		border: 1px solid #e8e8e8;
+	}
+	@media screen and (max-width: 991px) {
+		display:block;
+		padding:10px 0;
+		width:100%;
+	}
+}
+.content{
+	height:100%;
+	transition:.3s;
+	padding-left:$nav-width;
+	
+	// Content wrapper (actual content in the middle, padded etc)
+	.content-wrapper{
+		padding: 15px 30px;
+		background: $bg-color;
+		height: 100%;
+
+		// Dashboard's styles
+		
+
+		// Sites' styles
+
+		////////////////////////////////////
+
+
+		// Services' Styless
+		.color-key{
+			i{padding-right:5px;}
+			float:left;
+			margin-right:15px;
+			margin-bottom:15px;
+			font-size: 13px;
+			font-weight: bold;
+		}
+		.services-container{
+			clear:both;
+			.row{
+				padding:15px 0;
+				@media screen and (max-width:991px){
+					padding:0;
+				}
+			}
+		}
+		////////////////////////////////////
+
+	}
+}

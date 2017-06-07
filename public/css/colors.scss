@@ -1,0 +1,42 @@
+
+.red{
+	background: #e6c0c0;
+	border: 1px solid #dcacac;
+	&:hover{
+		background:#e2b2b2;
+		cursor:pointer;
+	}
+}
+.yellow{
+	background: #ece2ad;
+	border: 1px solid #e4d68a;
+	&:hover{
+		background:#e8db96;
+		cursor:pointer;
+	}
+}
+
+.green{
+	background: #a7e6c4;
+	border: 1px solid #8adaaf;
+	&:hover{
+		background:#88d0a9;
+		cursor:pointer;
+	}
+}
+.blue{
+	background: #97c8dc;
+	border:1px solid #90c0d4;
+	&:hover{
+		background:#68a3b5;
+		cursor:pointer;
+	}
+}
+.grey{
+	background: #b7b6b6;
+	border: 1px solid #a0a0a0;
+	&:hover{
+		background:#989898;
+		cursor:pointer;
+	}
+}

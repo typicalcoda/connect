@@ -1,0 +1,59 @@
+.db-box{
+	background: #fff;
+	height: 190px;
+	position:relative;
+	border:1px solid #b0bec5;
+	-webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.15);
+	box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.15);
+	margin-bottom:15px;
+	overflow:hidden;
+	transition:.4s;
+	&:hover{
+		-webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.85);
+		-moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.85);
+		box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.85);
+		cursor:pointer;
+	}
+	.title{
+		font-size: 26px;
+		font-weight: 300;
+		padding: 15px;
+	}
+	.db-icon{
+		float: left;
+		font-size: 43px;
+		padding: 0px 15px;
+		margin-right: 13px;
+		line-height: 1.7em;
+	}
+	.db-value{
+		font-size: 40px;
+		font-weight: 300;
+	}
+	small{
+		display: block;
+		font-weight: 400;
+		font-size: 16px;
+		color: #83ce83;
+		font-weight: bold;
+	}
+
+	.db-count{
+		position: absolute;
+		bottom: 15px;
+		right:15px;
+		.palette{
+			display: inline-block;
+			padding: 0 5px;
+			text-align: center;
+			.palette-color{
+				display: block;
+				padding: 5px;
+				float: left;
+				margin-right: 5px;
+				margin-top: 5px;
+			}
+		}
+	}
+}
